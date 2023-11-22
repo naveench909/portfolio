@@ -60,25 +60,19 @@
         (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB or Firebase/Firestore!
       </p>
       <a
-        href="https://www.linkedin.com/in/naveen-kumar-2b4099190/"
-        target="_blank"
+        href="files/2years.pdf"
+        download
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
       >
         <div
           class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
         />
-        <h4 class="relative z-9">Get in touch &rarr;</h4>
+        <h4 class="relative z-9">
+          Download Resume
+          <i class="fa-solid fa-download ml-2" />
+        </h4>
       </a>
     </div>
-    <!-- <div class="relative shadow-2xl grid place-items-center">
-      <img
-        src={"images/profile.png"}
-        alt="Zetane Engine"
-        class="object-cover z-[2] max-h-[70vh]"
-      />
-    </div> -->
-
-    <!--?xml version="1.0" standalone="no"?-->
     <svg
       id="sw-js-blob-svg"
       viewBox="0 0 100 100"
@@ -173,6 +167,7 @@
       </Step>
     </div>
   </section>
+
   <section
     id="about"
     class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
