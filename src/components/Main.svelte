@@ -9,10 +9,10 @@
       decription: "health care app for patients and doctors",
     },
     {
-      name: "Netflix clone",
-      icon: "fa-solid fa-clapperboard",
-      href: "https://netflix-clone9t7.netlify.app/",
-      decription: "netflix clone using react and firebase",
+      name: "ULesson",
+      icon: "fa-solid fa-building-columns",
+      href: "https://ulesson.com/",
+      decription: "EdUcation platform for students",
     },
     {
       name: "Quiz App",
@@ -60,7 +60,7 @@
         (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB or Firebase/Firestore!
       </p>
       <a
-        href="files/2years.pdf"
+        href="files/resume.pdf"
         download
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
       >
@@ -150,9 +150,11 @@
       </Step>
       <Step step={steps[1]}>
         <p>
-          This is a netflix clone which shows the latest shows and movies on
-          netflix. It's built with <strong class="text-violet-400"
-            >React.js</strong
+          It’s an education platform which provides interactive lessons,
+          personalized study plans and engaging content which empowers students
+          to excel in their academics. It's built with <strong
+            class="text-violet-400"
+            >Next.js, React.js and Recoil for state management</strong
           > and some other react librarys .
         </p>
       </Step>
@@ -165,6 +167,81 @@
           <strong class="text-violet-400">Open Trivia DB</strong>.
         </p>
       </Step>
+    </div>
+  </section>
+
+  <section
+    class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
+    id="skills"
+  >
+    <div
+      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+    >
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+        <span class="poppins text-violet-400">Skills</span>-set
+      </h3>
+    </div>
+    <div class="p-10 lg:p-20 grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+      <div
+        class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-violet-700 text-center"
+      >
+        <div
+          class="bg-slate-950 grid place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12 md:-mt-14 lg:-mt-16 mx-auto duration-200"
+        >
+          <i class="fa-solid fa-code" />
+        </div>
+        <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">Frontend</h3>
+        <div class="flex flex-col gap-2">
+          <p>React</p>
+          <p>Svelte</p>
+          <p>Next.js</p>
+          <p>SvelteKit</p>
+          <p>JavaScript</p>
+          <p>Typescript</p>
+          <p>HTML5</p>
+          <p>CSS3</p>
+        </div>
+      </div>
+      <div
+        class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-violet-700 text-center"
+      >
+        <div
+          class="bg-slate-950 grid place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12 md:-mt-14 lg:-mt-16 mx-auto duration-200"
+        >
+          <i class="fa-solid fa-database" />
+        </div>
+        <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">Backend</h3>
+        <div class="flex flex-col gap-2">
+          <p>Node.js</p>
+          <p>Express</p>
+          <p>GraphQL</p>
+          <p>Electron.js</p>
+          <p>MongoDB</p>
+          <p>React Router</p>
+          <p>Puppeteer</p>
+        </div>
+      </div>
+      <div
+        class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-violet-700 text-center"
+      >
+        <div
+          class="bg-slate-950 grid place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12 md:-mt-14 lg:-mt-16 mx-auto duration-200"
+        >
+          <i class="fa-brands fa-aws" />
+        </div>
+        <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">
+          Miscellaneous
+        </h3>
+        <div class="flex flex-col gap-2">
+          <p>GitHub</p>
+          <p>Linear</p>
+          <p>AWS(EC2)</p>
+          <p>Terraform</p>
+          <p>CI/CD(with github actions)</p>
+          <p>Figma</p>
+          <p>Zeplin</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -201,7 +278,7 @@
         </div>
       {/each}
     </div>
-    <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+    <!-- <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
       The <span class="text-violet-400">Complete</span> Package
     </h5>
     <div
@@ -262,10 +339,10 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </div> -->
     <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
       <p>Scroll to see more &rarr;</p>
     </div>
-    <p class="mx-auto">So why not invest?</p>
+    <!-- <p class="mx-auto">So why not invest?</p> -->
   </section>
 </main>
